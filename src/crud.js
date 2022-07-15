@@ -18,12 +18,12 @@ const renderTasks = () => {
               <input type="checkbox"  class="check" data-clear="${element.index}" ${flag}>
               <input type="text" class="todo" data-desc="${element.index}" value="${element.description}"/>
               <div class="icon">
-              <button class="remove" id="${element.index}">
+              <button class="remove border-none" id="${element.index}">
               <i class="fa-solid fa-trash-can"></i>
               </button>
               </div>
               </div>
-              <hr>
+              <hr class="border-none">
                 `;
     oneContainer.appendChild(chore);
   });

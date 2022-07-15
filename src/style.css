@@ -7,12 +7,7 @@
   font-weight: 300;
 }
 
-form input {
-  border: none;
-  background-color: white;
-}
-
-form button {
+form {
   border: none;
   background-color: white;
 }
@@ -70,8 +65,11 @@ hr {
 }
 
 .remove {
-  border: none;
   background-color: white;
+}
+
+.border-none {
+  border: none;
 }
 
 .title-container {
@@ -81,7 +79,6 @@ hr {
 }
 
 .title-container button {
-  border: none;
   background-color: white;
   width: 10%;
 }
